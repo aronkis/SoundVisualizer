@@ -1,6 +1,8 @@
 #ifndef _COLORS_H
 #define _COLORS_H
+
 #include <FastLED.h>
+
 CRGBPalette16 firePalette = HeatColors_p;
 uint32_t colour[] = {
     CRGB::AliceBlue,

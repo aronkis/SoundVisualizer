@@ -1,8 +1,6 @@
 #include "include/defines.h"
 #include "include/styles.h"
 
-// calculate the ledbrightness based on average FFT values!!!
-
 void setup()
 {
   pinMode(CHANNEL, INPUT);
@@ -17,6 +15,7 @@ void setup()
   while (!Serial)
   {
   }
+  
   FastLED.addLeds<LED_TYPE, LED_PIN, COLOR_ORDER>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
   FastLED.clear(); // clear all pixel data
 }

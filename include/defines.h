@@ -4,7 +4,7 @@
 #include <FastLED.h>
 #include <arduinoFFT.h>
 
-#define CHANNEL A0 //3.47k
+#define CHANNEL A0 // 3.47k
 #define BUTTON1 D5 // ChangeMode
 #define BUTTON2 D6 // ChangeColor
 #define BUTTON3 D7 // ChangeBrightness

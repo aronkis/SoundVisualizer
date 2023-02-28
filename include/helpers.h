@@ -18,8 +18,6 @@ ICACHE_RAM_ATTR void changeMode()
         {
             colorChanged = true;
         }
-        Serial.print("CurrentMode == ");
-        Serial.println(currentMode);
     }
 }
 
@@ -37,8 +35,6 @@ ICACHE_RAM_ATTR void changeColor()
             {
                 rainbowSpeed = 20;
             }
-            Serial.print("RainbowSpeed == ");
-            Serial.println(rainbowSpeed);
         }
         else
         {
